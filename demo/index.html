@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dile - date without calendar - Single Demo </title>
+
+</head>
+<body>
+
+
+    <div id="demo" style="margin: 70px;"></div>
+
+    <script type="module" src="index.js"></script>
+
+    <dile-date-without-calendar id="date122" value="1977-11-15"></dile-date-without-calendar>
+
+    <script>
+
+      let date1 = document.querySelector('#date122');
+
+      date1.addEventListener('dileDateWithoutCalendar-error', (event)=>{
+
+        console.log(event)
+
+      }, false);
+
+      document.addEventListener('dileDateWithoutCalendar-change', (event)=>{
+
+        // console.log(event)
+
+      }, false);
+
+    </script>
+
+</body>
+</html>

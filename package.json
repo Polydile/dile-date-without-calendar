@@ -1,0 +1,37 @@
+{
+  "name": "dile-date-without-calendar",
+  "version": "1.0.1",
+  "description": "Web component that selects a date without a calendar, for an input text field, based on LitElement.",
+  "scripts": {
+    "start": "es-dev-server --node-resolve --watch --open",
+    "start:compatibility": "es-dev-server --compatibility all --node-resolve --watch --open",
+    "site:build": "npm run storybook:build",
+    "storybook": "start-storybook -p 9001",
+    "storybook:build": "build-storybook -o _site -s storybook-static"
+  },
+  "keywords": [
+    "input",
+    "webcomponents",
+    "litelement",
+    "text",
+    "field",
+    "date"
+  ],
+  "author": "Dennys Jose Marquez Reyes <dennysjmarquez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "lit-element": "^2.2.0",
+    "lit-html": "^1.1.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@open-wc/demoing-storybook": "^0.2.0",
+    "es-dev-server": "^1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polydile/dile-date-without-calendar.git"
+  },
+  "homepage": "https://github.com/Polydile/dile-date-without-calendar#readme"
+}
