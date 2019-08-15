@@ -18,14 +18,14 @@ npm install dile-date-without-calendar
     value="1977-11-15"></dile-date-without-calendar>
 ```
 **Disabled**
-```
+```html
 <dile-date-without-calendar 
     value="1977-11-15" 
     disabled></dile-date-without-calendar>
 ```
 
 **Readonly**
-```
+```html
 <dile-date-without-calendar 
     value="1977-11-15" 
     readonly></dile-date-without-calendar>
@@ -33,7 +33,7 @@ npm install dile-date-without-calendar
 
 **Show months names in Popup**
 
-```
+```html
 <dile-date-without-calendar 
     value="1977-11-15" 
     options='{"monthsNames":true}'></dile-date-without-calendar>
@@ -41,7 +41,7 @@ npm install dile-date-without-calendar
 
 **Different language**
 
-```
+```html
 <dile-date-without-calendar 
     value="1977-11-15" 
     options='{
@@ -57,7 +57,7 @@ npm install dile-date-without-calendar
 ```
 **Customized**
 
-```
+```html
 <style>
 
     .date {
@@ -116,7 +116,7 @@ npm install dile-date-without-calendar
 
 ###### **_LitElement emits events_**
 
-```
+```html
 <dile-date-without-calendar 
     value="1977-11-15" 
     options='{"monthsNames":true}' 
@@ -135,8 +135,7 @@ npm install dile-date-without-calendar
 
 ###### **_window cash events_**
 
-```
-
+```html
 <dile-date-without-calendar id="date"
     value="1977-11-15"></dile-date-without-calendar>
 
@@ -176,7 +175,7 @@ npm install dile-date-without-calendar
 
 A json string, sets the configuration for the languages, determines if the names of the months are displayed in the Popup
 
-``` 
+```json 
 {
    
    "monthsNames": false,
