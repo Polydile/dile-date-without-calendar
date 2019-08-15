@@ -13,7 +13,7 @@ npm install dile-date-without-calendar
 
 **Default**
 
-```
+```html
 <dile-date-without-calendar 
     value="1977-11-15"></dile-date-without-calendar>
 ```
