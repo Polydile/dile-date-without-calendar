@@ -1,13 +1,13 @@
 {
   "name": "dile-date-without-calendar",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Web component that selects a date without a calendar, for an input text field, based on LitElement.",
   "scripts": {
     "start": "es-dev-server --node-resolve --watch --open",
     "start:compatibility": "es-dev-server --compatibility all --node-resolve --watch --open",
     "site:build": "npm run storybook:build",
     "storybook": "start-storybook -p 9001",
-    "storybook:build": "build-storybook -o _site -s storybook-static",
+    "storybook:build": "build-storybook git-o _site -s storybook-static",
     "start:build": "cd dist && es-dev-server --open",
     "build-develo": "webpack --mode development --output ./dist/dile-date-without-calendar.js",
     "build": "webpack --mode production --output ./dist/dile-date-without-calendar.min.js"
