@@ -16,7 +16,7 @@ npm install dile-date-without-calendar
 ###### Into your HTML page
 
 ```html
-<script type="module" src="./node_modules/dile-date-without-calendar/dist/dile-date-without-calendar.min.js"></script>
+<script src="./node_modules/dile-date-without-calendar/dist/dile-date-without-calendar.min.js"></script>
 ```
 ###### into your module script
 
