@@ -50,8 +50,6 @@ export class DileDateWithoutCalendar extends LitElement {
           border-width: var(--dileDateWithoutCalendar-Inputbox-border-width, 1px);
           border-color: var(--dileDateWithoutCalendar-Inputbox-border-color, #7A7A7A);
           
-          
-          
           -webkit-user-select: none;
           -moz-user-select: none;
           -ms-user-select: none;
@@ -69,7 +67,7 @@ export class DileDateWithoutCalendar extends LitElement {
           border-color: var(--dileDateWithoutCalendar-InputboxFocus-border-color, rgba(43,58,66,0.17));
           box-shadow: 0 0 0 var(--dileDateWithoutCalendar-InputboxFocus-box-shadow-width, .1rem) var(--dileDateWithoutCalendar-InputboxFocus-box-shadow, rgba(43,58,66,0.25));
           outline: 0;
-          boxWrapFocus
+          
         }
         
         .box-wrapper-err {
@@ -146,6 +144,7 @@ export class DileDateWithoutCalendar extends LitElement {
           margin: 0 2px;
           padding: 0;
           cursor: pointer;
+          outline: 0;
           
         }
         
@@ -217,6 +216,7 @@ export class DileDateWithoutCalendar extends LitElement {
           border-top: none;
           border-right: none;
           opacity: .5;
+          outline: 0;
           
         }
         

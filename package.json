@@ -1,6 +1,6 @@
 {
   "name": "dile-date-without-calendar",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Web component that selects a date without a calendar, for an input text field, based on LitElement.",
   "scripts": {
     "start": "es-dev-server --node-resolve --watch --open",

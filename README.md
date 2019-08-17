@@ -4,6 +4,12 @@ Web component that shows a date without calendar to a date based on LitElement
 
 Go to [DEMOS page](https://dile-date-without-calendar.polydile.com)!
 
+
+<br>
+
+![Presentation](https://raw.githubusercontent.com/Polydile/dile-date-without-calendar/asset/presentation.jpg)
+
+
 ## Install
 
 ```
@@ -71,58 +77,46 @@ import 'dile-date-without-calendar/dile-date-without-calendar';
 **Customized**
 
 ```html
-<style>
-
-    .date {
-      
-    /*Input*/
-
+ <style>
+    .date1 {
+      /*Input*/
+    
       --dileDateWithoutCalendar-InputboxFocus-border-color: #000;
       --dileDateWithoutCalendar-InputboxFocus-box-shadow: rgba(43, 58, 66, 0.25);
-
       --dileDateWithoutCalendar-Inputbox-border-width: 2px;
       --dileDateWithoutCalendar-Inputbox-border-color: #00c000;
       --dileDateWithoutCalendar-Inputbox-background-color: #000;
-
+      --dileDateWithoutCalendar-Inputbox-text-color: #00c000;
       --dileDateWithoutCalendar-field-background-color: #00ff00;
       --dileDateWithoutCalendar-field-text-color: #000;
-
-      --dileDateWithoutCalendar-color: #00c000;
       --dileDateWithoutCalendar-field-color: #00ff00;
-
-      --dileDateWithoutCalendar-Buttons-color: #00ff00;
-
+      --dileDateWithoutCalendar-buttons-color: #00ff00;
       --dileDateWithoutCalendar-InputboxFocus-box-shadow-width: 0.2rem;
       --dileDateWithoutCalendar-InputboxErr-box-shadow-width: 0.3rem;
-
+    
       /*Popup*/
-
+    
       --dileDateWithoutCalendar-PopupFieldMonth-text-align: left;
       --dileDateWithoutCalendar-Popup-background-color: #000;
-      --dileDateWithoutCalendar-Popupfield-color: #00c000;
+      --dileDateWithoutCalendar-Popupfield-text-color: #00c000;
       --dileDateWithoutCalendar-PopupButtons-color: #00ff00;
-
       --dileDateWithoutCalendar-Popupfield-hover-background-color: #00c000;
       --dileDateWithoutCalendar-Popupfield-hover-text-color: #000;
-
       --dileDateWithoutCalendar-Popupfield-active-background-color: #00ff00;
       --dileDateWithoutCalendar-Popupfield-active-text-color: #000;
-
       --dileDateWithoutCalendar-PopupFieldBox-hover-border-color: #00ff00;
       --dileDateWithoutCalendar-PopupFieldBox-hover-box-shadow: rgba(0, 192, 0, 0.25);
       --dileDateWithoutCalendar-PopupfieldTag-text-color: #00ff00;
-
       --dileDateWithoutCalendar-PopupFieldMonth-min-width: 87px;
       --dileDateWithoutCalendar-PopupFieldDay-min-width: 40px;
     }
+    </style>
 
-  </style>
-
-  <dile-date-without-calendar 
-    class="date" 
-    value="1977-11-15" 
-    options='{"monthsNames":true}'
-  ></dile-date-without-calendar>
+    <dile-date-without-calendar 
+        class="date1" 
+        value="1977-11-15" 
+        options='{"monthsNames":true}'
+    ></dile-date-without-calendar>
 ```
 
 **Events, Change and Error**
